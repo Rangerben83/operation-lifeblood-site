@@ -10,7 +10,7 @@
   />
   <!-- Tailwind via CDN (simple MVP approach) -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
+ <script>
   tailwind.config = {
     theme: {
       extend: {
@@ -54,45 +54,44 @@
 
   <main>
     <!-- Hero -->
-   <section class="relative overflow-hidden">
-  <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_#1A365D_0,_#050B1A_55%,_black_100%)] opacity-90"></div>
+   <section class="relative bg-white text-grayDark">
+  <div class="relative max-w-4xl mx-auto px-4 py-20 md:py-28 flex flex-col items-center text-center">
 
-  <div class="relative max-w-6xl mx-auto px-4 py-24 md:py-32 flex flex-col items-center text-center">
-    
-    <!-- PROMINENT LOGO -->
+    <!-- Prominent Logo -->
     <img 
       src="./OPERATION_LIFEBLOOD_LOGO_1.png" 
       alt="Operation Lifeblood Logo"
-      class="h-32 w-auto md:h-40 mb-6 drop-shadow-xl"
+      class="h-36 w-auto md:h-44 mb-6"
     />
 
-    <!-- TITLE -->
-    <p class="text-xs uppercase tracking-[0.35em] text-rescue mb-4">
+    <!-- Title Block -->
+    <p class="text-xs uppercase tracking-[0.25em] text-lifebloodRed mb-4">
       Focused Research Organization
     </p>
 
-    <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 text-sand">
+    <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 text-navy">
       Eliminating Preventable Deaths from<br />
-      <span class="text-rescue">Hemorrhagic Shock</span>
+      <span class="text-lifebloodRed">Hemorrhagic Shock</span>
     </h1>
 
-    <p class="text-base md:text-xl text-sand/80 max-w-3xl mb-8">
-      Operation Lifeblood unites military medicine, first responders, and 
-      trauma science in a mission-driven research organization dedicated 
-      to saving lives on the battlefield and in civilian emergencies.
+    <p class="text-base md:text-xl text-grayMid max-w-2xl mb-8">
+      Operation Lifeblood unites military medicine, first responders, and trauma science 
+      to create the world’s first focused research organization dedicated specifically to 
+      hemorrhagic shock.
     </p>
 
-    <!-- BUTTONS -->
+    <!-- CTA Buttons -->
     <div class="flex flex-wrap justify-center gap-4">
       <a
         href="#involved"
-        class="inline-flex items-center justify-center px-8 py-4 text-sm font-semibold rounded-md bg-trauma hover:bg-trauma/90"
+        class="inline-flex items-center justify-center px-8 py-4 text-sm font-semibold rounded-md bg-lifebloodRed text-white hover:bg-lifebloodRed/90"
       >
         Get the Mission Brief
       </a>
+
       <a
         href="#programs"
-        class="inline-flex items-center justify-center px-8 py-4 text-sm font-semibold rounded-md border border-sand/40 text-sand hover:border-rescue/80 hover:text-rescue"
+        class="inline-flex items-center justify-center px-8 py-4 text-sm font-semibold rounded-md border border-grayDark/20 text-grayDark hover:border-lifebloodRed hover:text-lifebloodRed"
       >
         Explore Core Programs
       </a>
